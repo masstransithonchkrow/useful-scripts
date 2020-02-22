@@ -1,0 +1,14 @@
+1903 Dark to Light Switcher for Task Scheduler
+
+There should be two XML files. It should work without administrative permissions unless otherwise disallowed by your group policy. They're meant for Windows 10 version 1903 and later and have the following settings configured:
+
+at 8 AM, the registry will switch to Windows Light theme.**
+a 8 PM, the registry will switch to Windows Dark theme.
+
+**For this to work effectively, please disable color on the Start menu, taskbar and action center.
+
+This won't work with Windows versions prior to 1903 because it writes to a registry key that's only available in those versions and later.
+
+Enjoy!
+
+🚏 - MTK
